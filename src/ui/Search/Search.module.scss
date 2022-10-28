@@ -1,0 +1,30 @@
+.Search {
+
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 250px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+  padding: 0 0 0 10px;
+
+  input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000;
+
+    &::placeholder {
+      color: #C4C4C4;
+    }
+  }
+}

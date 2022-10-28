@@ -1,0 +1,42 @@
+.Overlay {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ z-index: 1;
+ overflow: hidden;
+ background: rgba(0,0,0,0.5);  
+}
+
+.Cart {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 420px;
+  height: 100%;
+
+  .Container {
+    height: 100%;
+    padding: 30px;
+
+
+    .Header {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+    
+    .Body {
+      height: calc(100% - 60px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }  
+  }
+    
+  
+}

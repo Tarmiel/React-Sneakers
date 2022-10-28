@@ -1,0 +1,29 @@
+.Card {
+  background: #FFFFFF;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 30px;
+
+  img {
+    margin-right: 25px;
+  }
+
+  .Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+    .Price {
+      font-weight: bold;
+    }
+  }
+
+  .Delete {
+    align-self: center;
+  }
+}

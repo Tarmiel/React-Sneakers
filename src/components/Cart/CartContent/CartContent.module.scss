@@ -1,0 +1,30 @@
+.Items {
+  flex: 1 1 auto;
+  margin-bottom: 30px;
+  overflow-y: auto;
+  > * {
+    margin-bottom: 20px;
+  }
+}
+
+.Total {
+  ul {
+    display: block;
+    margin-bottom: 40px;
+
+    li {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 20px;
+
+      div {
+        flex: 1 1 auto;
+        height: 1px;
+        border-bottom: 1px dashed #6b6b6b;
+        position: relative;
+        top: -4px;
+        margin: 0 7px;
+      }
+    }
+  }
+}

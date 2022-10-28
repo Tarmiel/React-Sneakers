@@ -1,0 +1,42 @@
+.DirectedButton {
+  background: #9DD458;
+  border-radius: 18px;
+  padding: 15px 0px;
+  width: 100%;
+
+  .Container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .Edge {
+      width: 25%;  
+      display: flex;
+      justify-content: center;            
+    }
+    .Text {
+      white-space: nowrap;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #fff;
+    }
+  }  
+
+  &:hover {
+    background: lighten(#9dd558, 5%);
+  }
+
+  &:active {
+    background: darken(#9dd558, 5%);
+  }
+}
+
+.Back {
+  .Container {
+    flex-direction: row-reverse;
+    .Edge {
+      transform: scale(-1, 1);
+    }
+  }
+}

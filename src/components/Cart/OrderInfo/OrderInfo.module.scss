@@ -1,0 +1,26 @@
+.OrderInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    margin-bottom: 40px;
+  }
+
+  .Title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #87C20A;
+  }
+
+  .SubTitle {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.4;
+  }
+}

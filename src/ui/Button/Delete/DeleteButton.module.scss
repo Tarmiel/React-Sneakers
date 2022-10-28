@@ -1,0 +1,23 @@
+.DeleteButton {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.1s ease-out;
+
+  svg {
+    transform: rotate(45deg);
+  }
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &:active {
+    background: darken(#4e4e4e, 5%);
+  }
+}

@@ -1,0 +1,21 @@
+.AddToFavoriteButton {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.1s ease-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.Checked {
+  border-color: transparent;
+  background: #FEF0F0;
+  border-radius: 8px;
+}
